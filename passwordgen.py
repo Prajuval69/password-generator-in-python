@@ -3,6 +3,7 @@ import string
 letters = [chr(i) for i in range(65, 91)] + [chr(i) for i in range(97, 123)]
 symbols = list(string.punctuation)
 numbers = [str(i) for i in range(10)]
+print('Welcome to password genrator!!\n')
 letter=int(input("enter the number of letters required in the password: "))
 symbol=int(input("enter the number of symbols required in the password: "))
 number=int(input("enter the number of numbers required in the password: "))
